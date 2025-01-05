@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { FaLinkedin, FaInstagram, FaGoodreads } from 'react-icons/fa';  // Import React Icons
+import { FaLinkedin,FaInstagram, FaGoodreads } from 'react-icons/fa';  // Import React Icons
 
 const Footer = () => {
   return (
@@ -41,7 +41,10 @@ const Footer = () => {
               <a href="https://github.com/AzmeenaAbdulJabbbar" className="text-gray-500 ml-3">
                 <FaGoodreads className="w-8 h-8 text-yellow-500 hover:text-red-600" />
               </a>
-              
+              <a href="https:/" className="text-gray-500 ml-3">
+                <FaInstagram className="w-8 h-8 text-yellow-500 hover:text-red-600" />
+              </a>
+
             </span>
           </div>
         </div>
